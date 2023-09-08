@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam's Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Basic&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ee311fe374.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <div id="header">
+        <img src="images/my-image.jpg" class="image" id="image2">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>S</span>hivam</h1>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Websites">Websites</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Hi,I'm <span>Shivam</span> dhariya</p>
+                <p>graduating from MNIT Jaipur with ECE</p>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/myimage.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Shivam dhariya from Agra (Uttar Pradesh).I am currently graduating from 
+                        MNIT Jaipur with the stream Electronics and communication engineering ( Final Year).</p>
+
+                    <div class="about-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Achievements')">Achievements</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Hobbies')">Hobbies</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>DSA</span><br>Deep knowledge of data structures and algorithms <a class="profile" href="https://leetcode.com/shivamdhariya/"> (Leetcode Profile)</a> </li>
+                            <li><span>Web Development</span><br>Building websites in front-End <a class="profile" href="https://github.com/shivamdh5"> (Github Profile)</a></li>
+                            <li><span>Software Skills</span><br>Operating system , Database management system <br>Object oriented programming ( OOPS ) </li>
+                            <li><span>Programming languages</span><br>C++ , C , HTML, CSS , JavaScript, SQL</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Achievements">
+                        <ul>
+                            <li><span>Data structures</span><br>Solved over 500 Plus DSA Problems</li>
+                            <li><span>JEE Advanced</span><br>Cleared India's one of the toughest exam goes by name JEE
+                                Advanced</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Matriculation</span><br>Mangalick Shiksha Kendra ( 2017 ) 91.2 %.</li>
+                            <li><span>Intermediate</span><br>John milton public school ( 2019 ) 86.8 %.</li>
+                            <li><span>B.Tech</span><br>MNIT Jaipur ( 2024 ) with the stream ECE.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Hobbies">
+                        <ul>
+                            <li><span>Programming/Coding</span><br>I am a passionate problem solver.</li>
+                            <li><span>Cricket/Badminton</span><br>I enjoy playing cricket/Badminton.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Websites">
+        <div class="container">
+            <h1 class="sub-title title">My Websites</h1>
+            <div class="Websites-list">
+                <div>
+                    <i class="fa-solid fa-smog icon"></i>
+                    <h2>Weather Project</h2>
+                    <p class="text">This is a Web App which is simple to use and can provide the weather information of any city around the world</p>
+                        <a href="https://shivamdh5.github.io/weatherapp/">Check Site</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-gamepad icons"></i>
+                    <h2>Simon game</h2>
+                    <p class="text">If you love some remebering pattern kinda stuff then you should look for this.
+                        This is a fun game and challenging at the same time in which 
+                        you will be remebering pattern and accordingly get a score</p>
+                        <a href="https://shivamdh5.github.io/simongame/">Check Site</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-dog iconss"></i>
+                    <h2>Tindog</h2>
+                    <p class="text">This is just a static Website but here you will get to know 
+                        how you should structure and design your site for a better view</p>
+                        <a href="https://shivamdh5.github.io/Tindog/">Check Site</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> shivamdhariya543@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +918218518788</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/shivam.dhariya.568"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/shivamdh5"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Resume.pdf" download class="btn btn2">My Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="Email" placeholder="your email" required>
+                        <textarea name="Message" rows="5" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © Shivam.All rights reserved 2023</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx7aOEIlGCUVLaa-K5hVssqBXZq8-QVZMB5T-j9iKoK8ASPTz15nofDPG4tOKXh5pjS/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML="";
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
