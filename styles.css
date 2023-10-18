@@ -312,7 +312,7 @@ form .btn2{
     }
     .logo{
         position: relative;
-        top: -353px;
+        top: -403px;
         left: 87px;
     }
     #image2{
@@ -323,6 +323,8 @@ form .btn2{
         top: 200px;
     }
     .header-text{
+        position: relative;
+        bottom: 450px;
         padding: 15px 0 0 10px;
         font-size: 23px;
     }
