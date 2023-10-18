@@ -307,16 +307,16 @@ form .btn2{
 @media only screen and (max-width:600px){
     nav{
         position: relative;
-        top: -48px;
+        top: -43px;
         right: 83px;
     }
     .logo{
         position: relative;
-        top: -507px;
+        top: -495px;
         left: 87px;
     }
     #image2{
-        height: 60%;
+        height: 65%;
         width: 79%;
         position: relative;
         left: 71px;
@@ -324,7 +324,7 @@ form .btn2{
     }
     .header-text{
         position: relative;
-        bottom: 590px;
+        bottom: 586px;
         padding: 15px 0 0 10px;
         font-size: 23px;
     }
